@@ -8,20 +8,19 @@ const socialLinks = [
   { name: 'WhatsApp', url: 'https://wa.me', filled: false },
 ];
 
-interface Props {}
+// interface Props {}
 
-const FollowMe: React.FC<Props> = () => {
+const FollowMe: React.FC = () => {
   return (
-    <div className="w-full relative">
+    <div className="w-full relative mt-10">
       <h2 className="
         absolute z-10
         font-bold uppercase whitespace-nowrap
-        text-[48px] sm:text-[100px] md:text-[120px] lg:text-[160px] xl:text-[200px]
         leading-[1] tracking-[-0.015em]
-        text-black/80
+        text-black/90
         left-0 w-full text-center md:text-right pr-0 md:pr-10
         top-[40px] md:top-[10px]
-      ">
+      " style={{ fontSize: 'clamp(48px, 13vw, 200px)' }}>
         Follow Me
       </h2>
 
