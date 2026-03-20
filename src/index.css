@@ -1,3 +1,8 @@
-@import "tailwindcss";@import url('https://fonts.googleapis.com');
+@import "tailwindcss";
 
-
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+  overscroll-behavior-x: none;
+  font-family: 'Inter', sans-serif;
+}

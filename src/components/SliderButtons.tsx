@@ -38,4 +38,4 @@ const SliderButtons = ({ buttons = defaultButtons }: Props) => {
   );
 };
 
-export default SliderButtons;
+export default SliderButtons; 
