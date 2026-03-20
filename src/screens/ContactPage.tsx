@@ -27,7 +27,7 @@ const ContactPage = () => {
 
         {/* Картинка десктоп — absolute, от pt заголовка до низа формы */}
         <div className="hidden md:block absolute right-0 w-[55%] bottom-0 overflow-hidden" style={{ top: 'calc(9vw - 15px)' }}>
-          <img src={contactImg} alt="Contact" className="absolute inset-0 w-full h-full object-cover object-center" />
+          <img src={contactImg} alt="Contact" className="absolute inset-0 w-full h-full object-cover object-left" />
         </div>
 
         {/* Форма — определяет высоту секции */}

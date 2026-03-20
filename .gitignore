@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+tailwindEduc.md
+tailwind-classes.md
